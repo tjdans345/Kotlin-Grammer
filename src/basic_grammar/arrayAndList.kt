@@ -1,3 +1,5 @@
+package basic_grammar
+
 fun main() {
 
 }
@@ -15,7 +17,7 @@ fun array() {
     val array2 : Array<String> = arrayOf("d")
     val list2 = listOf(1,2,"hi", 3L, 4f)
 
-    // 기본적으로 array 의 값은 변경이 가능하다.
+    // 기본적으로 basic_grammar.array 의 값은 변경이 가능하다.
     array[0] = 0;
 
     // list 같은 경우

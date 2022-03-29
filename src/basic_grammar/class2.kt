@@ -1,4 +1,4 @@
-
+package basic_grammar
 fun main() {
 
     var a =Person("박보영", 1990);

@@ -1,3 +1,5 @@
+package basic_grammar
+
 fun main() {
 
     checkNumber(3);

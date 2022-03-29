@@ -1,4 +1,4 @@
-package test
+
 fun main() {
     var a = Animal("별이", 5 , "개");
     var b = Dog("별이",5, "male")
