@@ -34,7 +34,7 @@ fun main() {
     // with 는 인스턴스를 파라미터로 받는다
 
     var e = Book("메테오의 재밌는 코틀린", 43000);
-    var afterPrice: Int = with(e) {
+    var afterPrice : Int = with(e) {
         discount()
         price
     }

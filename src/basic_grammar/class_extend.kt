@@ -14,7 +14,6 @@ fun main() {
 // 상속을 받으려면 open 을 사용해야한다
 open class Animal(var name:String, var age: Int, var type: String) {
 
-
     fun introduce() {
         println("저는 $type $name 이고 $age 살 입니다.")
     }
