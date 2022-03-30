@@ -35,6 +35,8 @@ val pizzaIsGreat : String.(Int) -> String = {
     this + " Pizza is the best! ${it}"
 }
 
+infix fun String.plus(x:String) : String = "$this 입니다. 라라라라라라라라라라 $x"
+
 fun extendString(name: String, age : Int) : String {
 
     val introduceMySelf : String.(Int) -> String =  {"I am ${this} and ${it} years old"}
