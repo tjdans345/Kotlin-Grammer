@@ -3,7 +3,6 @@ package advanced_grammar
 // 함수의 다양한기능
 // 오버로딩 가능
 
-
 fun main() {
 
     read(5)
